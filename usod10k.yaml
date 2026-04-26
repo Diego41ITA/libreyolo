@@ -1,0 +1,6 @@
+path: D:\Automation\train_yolo\datasets\YOLO_USOD10k
+train: images/train
+val: images/val
+test: images/test
+nc: 1
+names: ['salient_object']
