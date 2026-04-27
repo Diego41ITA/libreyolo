@@ -49,3 +49,6 @@ runs/
 *.engine
 *.onnx
 *.torchscript
+/datasets/*
+datasets/*
+datasets

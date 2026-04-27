@@ -1,4 +1,4 @@
-path: /datasets/YOLO_USOD10k
+path: D:/fork_libreyolo/libreyolo/datasets/YOLO_USOD10k
 train: images/train
 val: images/val
 test: images/test

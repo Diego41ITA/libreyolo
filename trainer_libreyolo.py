@@ -31,9 +31,6 @@ def main():
     print(f"Best mAP50-95: {results['best_mAP50_95']:.3f}")
     print(f"Best checkpoint: {results['best_checkpoint']}")
 
-    # TorchScript
-    model.export(format="torchscript")
-
 
 if __name__ == "__main__":
     freeze_support()
