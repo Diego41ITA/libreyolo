@@ -4,8 +4,8 @@ import cv2
 # -------------------------------
 # CONFIGURAZIONE
 # -------------------------------
-dataset_path = "./USOD10k"      # cartella principale con TR, VAL, TE
-output_path = "./YOLO_USOD10k"  # dove salvare YOLO dataset
+dataset_path = "./datasets/USOD10k"      # cartella principale con TR, VAL, TE
+output_path = "./datasets/YOLO_USOD10k"  # dove salvare YOLO dataset
 class_id = 0                     # tutte le maschere diventano classe 0
 
 splits = {
